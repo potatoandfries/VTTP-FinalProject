@@ -1,0 +1,36 @@
+<mat-toolbar color="primary" class="header fixed-top">
+  <a routerLink="/" class="logo">
+    <img src="../assets/shoe.jpg" alt="Shoely" class="navbar-brand" />
+  </a>
+
+  <!-- Navigation links visible on all devices -->
+  <div class="navigation-links">
+    <a mat-button routerLink="/" routerLinkActive="active">Home</a>
+    <a mat-button routerLink="/browse" routerLinkActive="active">Products</a>
+    <a mat-button routerLink="/faq" routerLinkActive="active">About</a>
+  </div>
+
+  <!-- Search field -->
+  <mat-form-field class="search">
+    <mat-icon matPrefix>search</mat-icon>
+    <input matInput placeholder="Search" #searchInput (keyup.enter)="searchProduct($any(searchInput.value))">
+  </mat-form-field>
+
+  <!-- Conditional display of login and user information -->
+  <div *ngIf="!(authState | async)?.authenticated">
+    <a mat-button routerLink="/login">Login</a>
+    <a mat-button routerLink="/signup">Sign Up</a>
+  </div>
+  <div *ngIf="(authState | async)?.authenticated">
+      <button mat-button routerLink="/cart">Cart</button>
+      <button mat-button routerLink="/account/information">User Information</button>
+      <button mat-button routerLink="/account/orders">Orders</button>
+      <button mat-button routerLink="/account/address">Address</button>
+      <button mat-button routerLink="/account/help">Help</button>
+      <button mat-button (click)="userSignOut()">Logout</button>
+   
+    <button mat-icon-button>
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

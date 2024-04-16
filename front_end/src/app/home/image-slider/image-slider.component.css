@@ -1,0 +1,66 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0; /* removed horizontal padding */
+  background-color: white;
+  width: 100%; /* Ensures the container fills the width */
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px; /* Space between cards */
+  width: 100%; /* Ensure the cards container fills the width */
+}
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 50%; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 40px; /* Ensures the button is not too small */
+  height: 40px; /* Ensures the button is not too small */
+}
+
+.carousel-button mat-icon {
+  font-size: 24px; /* Adjust the size of the icon as needed */
+  color: black; /* Icon color */
+}
+
+
+.carousel-card {
+  flex: 0 0 auto; /* Ensures that the card does not grow or shrink but is automatically sized based on its content initially */
+  width: 30.3%; /* Fixed width for each card */
+  height: 30.3%; /* Fixed height for each card */
+  margin: 0 10px; /* Optional: Adds horizontal spacing between cards */
+  overflow: hidden; /* Hides any content that overflows the fixed size */
+  position: relative; /* Sets the positioning context for elements inside */
+  display: flex; /* Utilizes flexbox for internal alignment */
+  align-items: center; /* Centers content vertically within the card */
+  justify-content: center; /* Centers content horizontally within the card */
+}
+
+
+.carousel-container img {
+  width: 100%;
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-card {
+    width: 100%; /* Cards take full container width on smaller screens */
+    height: auto; /* Height adjusts automatically to maintain aspect ratio of content */
+    margin: 10px 0; /* Adds vertical spacing */
+  }
+
+  .carousel-button,
+  .carousel-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

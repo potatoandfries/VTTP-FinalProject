@@ -1,0 +1,54 @@
+.account {
+  position: relative;
+  top: 150px;
+  min-height: 50vh;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.links {
+  padding-right: 15px; /* Space between columns */
+}
+
+.link-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.link-item {
+  margin-bottom: 15px; /* Space between items */
+}
+
+.nike-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000; /* Black for better visibility */
+  border-bottom: 3px solid #17a2b8; /* Thicker accent color under title */
+  padding-bottom: 10px;
+  margin-bottom: 25px; /* More space below title */
+}
+
+i.fa {
+  font-size: 20px; /* Larger icon size */
+  margin-right: 10px; /* More space between icon and text */
+  color: #333; /* Dark gray for non-active icons */
+}
+
+a {
+  display: flex;
+  align-items: center; /* Vertical centering */
+  text-decoration: none;
+  color: #333; /* Darker text color for better readability */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+a.active i,
+a.active span {
+  color: #17a2b8; /* Active state with accent color */
+}
+
+/* Enhancements for mobile responsiveness */
+@media (max-width: 768px) {
+  .links {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,43 @@
+<!-- <div class="carousel-container">
+  <button mat-stroked-button (click)="previousSlide()">Previous</button>
+  <mat-card *ngIf="carausel.length > 0">
+    <img mat-card-image [src]="carausel[currentSlide].imageUrl" alt="{{ carausel[currentSlide].title }}">
+    <mat-card-content>
+      <h3>{{ carausel[currentSlide].title }}</h3>
+      <p>{{ carausel[currentSlide].text }}</p>
+    </mat-card-content>
+  </mat-card>
+  <button mat-stroked-button (click)="nextSlide()">Next</button>
+</div> -->
+
+<!-- <div class="carousel-container">
+  <button class="carousel-button" (click)="previousSlide()">Previous</button>
+  <mat-card *ngIf="carausel.length > 0" class="carousel-card">
+    <img mat-card-image [src]="carausel[currentSlide].imageUrl" alt="{{ carausel[currentSlide].title }}">
+    <mat-card-content>
+      <h3>{{ carausel[currentSlide].title }}</h3>
+      <p>{{ carausel[currentSlide].text }}</p>
+    </mat-card-content>
+  </mat-card>
+  <button class="carousel-button" (click)="nextSlide()">Next</button>
+</div> -->
+
+<div class="carousel-container">
+  <button class="carousel-button" (click)="previousSlide()">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  
+  <div class="cards-container">
+    <mat-card *ngFor="let item of carausel" class="carousel-card">
+      <img mat-card-image [src]="item.imageUrl" alt="{{ item.title }}">
+      <mat-card-content>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <button class="carousel-button" (click)="nextSlide()">
+    <mat-icon>arrow_forward</mat-icon>
+  </button>
+</div>

@@ -1,0 +1,50 @@
+<div class="address-container">
+  <h2 class="form-title">Address</h2>
+  <hr>
+  <div *ngIf="innerLoading" class="loader">Loading...</div>
+  <div *ngIf="!innerLoading">
+    <form [formGroup]="addressForm" (ngSubmit)="onSubmitAddressForm()" class="address-form">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="country">Country</label>
+          <input type="text" id="country" class="form-control" name="country" formControlName="country" maxlength="240">
+          <div *ngIf="addressForm.get('country')?.touched && addressForm.get('country')?.invalid" class="alert-danger">
+            This field is required!
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="city">City</label>
+          <input type="text" id="city" class="form-control" name="city" formControlName="city" maxlength="240">
+          <div *ngIf="addressForm.get('city')?.touched && addressForm.get('city')?.invalid" class="alert-danger">
+            This field is required!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="state">State</label>
+          <input type="text" id="state" class="form-control" name="state" formControlName="state" maxlength="240">
+          <div class="alert-danger" *ngIf="addressForm.get('state')?.touched && addressForm.get('state')?.invalid">
+            Please enter a valid state
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="zip">ZIP</label>
+          <input type="text" id="zip" class="form-control" name="zip" formControlName="zip" minlength="5" maxlength="6">
+          <div class="alert-danger" *ngIf="addressForm.get('zip')?.touched && addressForm.get('zip')?.invalid">
+            Please enter a valid zip number!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="address">Address</label>
+          <textarea id="address" class="form-control" name="address" formControlName="address" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="form-row controls">
+        <button class="btn btn-info" type="submit" [disabled]="addressForm.invalid || addressForm.pending">Update</button>
+      </div>
+    </form>
+  </div>
+</div>

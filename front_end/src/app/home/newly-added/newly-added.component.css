@@ -1,0 +1,85 @@
+.newly-added {
+  position: relative;
+  top: 50px;
+  bottom: 20px;
+  min-height: 15vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.newly-added .title {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.newly-added .new-cards {
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px;
+}
+
+.newly-added .new-cards .new-card {
+  display: inline-block;
+  padding: 15px;
+}
+
+.newly-added .new-cards .new-card .row {
+  padding-left: 10px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.newly-added .new-cards .new-card .row p {
+  font-weight: bold;
+}
+
+.newly-added .new-cards .new-card hr {
+  width: 75%;
+  margin-bottom: 5px;
+}
+
+.newly-added .new-cards .new-card p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.newly-added .new-cards .new-card a {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+.newly-added .new-cards .new-card img {
+  width: 180px;
+  height: 180px;
+}
+
+.newly-added .new-cards .new-card .product-color {
+  position: relative;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.newly-added .new-cards .new-card .product-name {
+  color: #292c2f;
+}
+
+.newly-added .new-cards .new-card:hover {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 5px 6px rgba(57, 41, 41, 0.1);
+  -moz-box-shadow: 0px 3px 5px 6px rgba(57, 41, 41, 0.1);
+  box-shadow: 0px 3px 5px 6px rgba(57, 41, 41, 0.1);
+}
+
+.newly-added p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

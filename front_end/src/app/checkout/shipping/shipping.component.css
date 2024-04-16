@@ -1,0 +1,88 @@
+.shipping {
+  position: relative;
+  top: 70px;
+}
+
+.shipping .info {
+  min-height: 35vh;
+}
+
+.shipping .info label {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+}
+
+.shipping .info input,
+.shipping .info textarea {
+  border-radius: 10px;
+}
+
+.shipping .info textarea {
+  resize: none;
+}
+
+.shipping .info .same,
+.shipping .info .different {
+  cursor: pointer;
+}
+
+.shipping .info .same div,
+.shipping .info .different div {
+  display: inline-block;
+  border: 1px solid #17a2b8;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.shipping .info .same span,
+.shipping .info .different span {
+  color: gray;
+  position: relative;
+  bottom: 3px;
+  display: inline;
+  margin: 0;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.shipping .info .same.active div,
+.shipping .info .different.active div {
+  background-color: #17a2b8;
+}
+
+.shipping .info .same.active span,
+.shipping .info .different.active span {
+  color: black;
+  font-weight: bold;
+}
+
+.shipping .controls button,
+.shipping .controls a {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.shipping .controls .back {
+  border: 1px solid #17a2b8;
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .shipping .container-fluid {
+    width: 95% !important;
+  }
+}
+.display .summary,
+.shipping {
+  flex: 1 0 auto;  /* Grow as needed, do not shrink, and start with auto basis */
+}

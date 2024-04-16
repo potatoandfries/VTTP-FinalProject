@@ -1,0 +1,36 @@
+<div class="product-detail container">
+  <div *ngIf="fetchError" class="alert-warning">Problem loading products...</div>
+  <div *ngIf="innerLoading" class="loader"></div>
+  <div *ngIf="!innerLoading && product" class="row pt-5">
+    <div class="col-md-7">
+      <img class="product-img img-responsive" [src]="activeProductVariant.image" [alt]="product.name">
+    </div>
+    <div class="col-md-5">
+      <div class="product-description">
+        <span class="category">{{ product.category }}</span>
+        <h1 class="name">{{ product.name }}</h1>
+        <p class="description">{{ product.longDesc }}</p>
+
+        <div class="price-quantity">
+          <div class="quantity">
+            <label for="amountElement">Amount:</label>
+            <input #amountElement id="amountElement" type="number" class="quantity-input" min="1" value="1">
+          </div>
+          <span class="price">{{ activeProductVariant.price }} $</span>
+        </div>
+
+        <button *ngIf="!(cartState | async)?.loading" (click)="addToCart(amountElement)" class="btn btn-info add-to-cart">Add to Cart</button>
+
+        <div class="variant-selection">
+          <div *ngFor="let v of product.productVariantDetails" 
+               [class.active]="v.id === activeProductVariant.id" 
+               (click)="setActiveVariant(v.id)">
+            <img [src]="v.thumb" [alt]="v.color" class="variant-thumb">
+            <span>{{v.color | json}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-related></app-related>
+</div>

@@ -1,0 +1,55 @@
+<div class="browse-container">
+  <div class="filters">
+    <div class="categories">
+      <h2>Categories</h2>
+      <p *ngIf="selectedCategory !== 'any'" class="remove" (click)="clearCategory()">remove</p>
+      <div *ngFor="let category of (browseState | async)?.categories" 
+           [class.active]="selectedCategory === category.category.name"
+           (click)="selectCategory(category.category.name)" class="category">
+        {{ category.category.name }}
+      </div>
+    </div>
+
+    <div class="price">
+      <h2>Price</h2>
+      <p *ngIf="minPrice !== '0' || maxPrice !== '0'" class="remove" (click)="clearPrice()">remove</p>
+      <div class="price-range">
+        <input type="number" placeholder="Min" (change)="selectMin($any($event.target).value)" 
+               value="{{minPrice !== '0' ? minPrice : ''}}" class="price-input">
+        <input type="number" placeholder="Max" (change)="selectMax($any($event.target).value)" 
+               value="{{maxPrice !== '0' ? maxPrice : ''}}" class="price-input">
+      </div>
+    </div>
+
+    <div class="color">
+      <h2>Color</h2>
+      <p *ngIf="selectedColor !== 'any'" class="remove" (click)="clearColor()">remove</p>
+      <div class="color-palette">
+        <div *ngFor="let color of (browseState | async)?.colors" 
+             [ngStyle]="{'background-color': color.color.hex}"
+             (click)="selectColor(color.color.name)" 
+             class="color-circle {{selectedColor === color.color.name ? 'active' : ''}}">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="browse-content">
+    <div *ngIf="(browseState | async)?.loading" class="loader"></div>
+    <div class="product-display">
+      <div class="product-card" *ngFor="let product of (browseState | async)?.products">
+        <a routerLink="/detail/{{product.url}}/{{product.productVariant.id}}">
+          <img src="{{product.productVariant.thumb}}" alt="product image" class="product-image">
+          <div class="product-info">
+            <h3>{{product.name}}</h3>
+            <div>{{product.productVariant.price}} $</div>
+          </div>
+        </a>
+      </div>
+      <div *ngIf="(browseState | async)?.productsCount === 0 && !(browseState | async)?.loading" class="product-not-found">
+        <h1>:(</h1>
+        <h3>Sorry, no product found</h3>
+      </div>
+    </div>
+  </div>
+</div>

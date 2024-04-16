@@ -1,0 +1,101 @@
+.signup {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 25%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup.title {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+  left: -15%;
+}
+
+.signup.title div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup.title img {
+  width: 90px;
+  height: 90px;
+}
+
+.signup.title p {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.signup.title span {
+  color: #17a2b8;
+  white-space: nowrap;
+}
+
+.signup.form.loader {
+  top: 20%;
+}
+
+.signup.form label {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+}
+
+.signup.form input,
+.signup.form button {
+  border-radius: 10px;
+}
+
+.signup.form button {
+  width: 100%;
+}
+
+.signup.form.forgot a p {
+  font-size: 14px;
+  color: gray;
+  text-align: end;
+}
+
+.signup.form.forgot a:hover {
+  text-decoration: underline gray;
+}
+
+.signup.form.signin {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup.form.signin a p {
+  font-size: 14px;
+  color: gray;
+}
+
+.signup.form.signin a p span {
+  font-size: 14px;
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+.signup {
+    position: relative;
+    top: 100px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 768px) {
+.signup {
+    width: 40%;
+  }
+}

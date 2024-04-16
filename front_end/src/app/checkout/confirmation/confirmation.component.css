@@ -1,0 +1,68 @@
+.confirmation {
+  position: relative;
+  top: 70px;
+}
+
+.confirmation .panel {
+  min-height: 42vh;
+}
+
+.confirmation .panel .info {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(57, 41, 41, 0.1);
+}
+
+.confirmation .panel .info p {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.confirmation .panel .info p span {
+  color: gray;
+}
+
+.confirmation .panel .info .title p {
+  font-size: 16px;
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.confirmation .panel .info .title .edit p {
+  font-size: 14px;
+  color: #17a2b8;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.confirmation .panel .info .title .edit {
+  cursor: pointer;
+  text-align: end;
+}
+
+.confirmation .panel .info .billing {
+  color: gray;
+  font-style: italic;
+}
+
+.confirmation .panel .info.secondary,
+.confirmation .panel .info.lower {
+  position: relative;
+}
+
+.confirmation .panel .info.secondary {
+  top: 10px;
+}
+
+.confirmation .panel .info.lower {
+  top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .confirmation .container-fluid {
+    width: 95% !important;
+  }
+}

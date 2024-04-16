@@ -1,0 +1,46 @@
+.payment {
+  position: relative;
+  top: 70px;
+}
+.payment.info {
+  min-height: 35vh;
+}
+.payment.info label {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+}
+.payment.info input,
+.payment.info select {
+  border-radius: 10px;
+}
+.payment.info #cardOwner {
+  text-transform: uppercase;
+}
+.payment.info.warning p {
+  color: gray;
+  font-size: 12px;
+}
+.payment.controls {
+  button,
+  a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+}
+.payment.controls.back {
+  border: 1px solid #17a2b8;
+  color: #17a2b8;
+  font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+ .payment.container-fluid {
+    width: 95%!important;
+  }
+}

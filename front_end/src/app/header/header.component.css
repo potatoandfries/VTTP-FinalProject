@@ -1,0 +1,48 @@
+/* Styling for the Mat Toolbar and overall layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  height: 45px;
+}
+
+.navigation-links a, .mat-menu-item {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+.navigation-links a.active, .mat-menu-item:hover {
+  color: #17a2b8;
+  background-color: transparent;  /* Ensure a clean look with no background change on hover */
+}
+
+.search {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-icon-button {
+  color: #333;
+}
+
+/* Enhanced styling for mat-menu items */
+.mat-menu-panel {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

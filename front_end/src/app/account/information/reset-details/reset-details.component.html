@@ -1,0 +1,38 @@
+<div class="reset-details">
+  <h2 class="title">User Information</h2>
+  <hr>
+  <div *ngIf="innerLoading" class="loader">Loading...</div>
+
+  <div *ngIf="!innerLoading">
+    <form [formGroup]="detailsForm" (ngSubmit)="onSubmitDetailsForm()" class="user-details-form">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="firstName">Name</label>
+          <input type="text" id="firstName" class="form-control" name="firstName" formControlName="firstName" maxlength="52">
+          <div *ngIf="detailsForm.get('firstName')?.touched && detailsForm.get('firstName')?.invalid" class="alert-danger">
+            This field is required!
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="lastName">Surname</label>
+          <input type="text" id="lastName" class="form-control" name="lastName" formControlName="lastName" maxlength="52">
+          <div *ngIf="detailsForm.get('lastName')?.touched && detailsForm.get('lastName')?.invalid" class="alert-danger">
+            This field is required!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" class="form-control" name="phone" formControlName="phone" maxlength="12">
+          <div *ngIf="detailsForm.get('phone')?.touched && detailsForm.get('phone')?.invalid" class="alert-danger">
+            Please enter a valid phone number!
+          </div>
+        </div>
+      </div>
+      <div class="form-row controls">
+        <button class="btn btn-info" type="submit" [disabled]="detailsForm.invalid || detailsForm.pending">Update</button>
+      </div>
+    </form>
+  </div>
+</div>

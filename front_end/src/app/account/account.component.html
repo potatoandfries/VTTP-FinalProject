@@ -1,0 +1,38 @@
+<div class="account container nike-theme">
+  <div class="row">
+    <div class="links col-md-3">
+      <div class="title nike-title">
+        <h2>Account</h2> <!-- Using h2 for semantic structure -->
+      </div>
+      <ul class="link-list"> <!-- Using list for better semantic and accessibility -->
+        <li class="link-item">
+          <a routerLink="/account/information" routerLinkActive="active">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>User Information</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a routerLink="/account/orders" routerLinkActive="active">
+            <i class="fa fa-archive" aria-hidden="true"></i>
+            <span>Orders</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a routerLink="/account/address" routerLinkActive="active">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <span>Address</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a routerLink="/account/help" routerLinkActive="active">
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+            <span>Help</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="panel col-md-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

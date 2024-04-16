@@ -1,0 +1,30 @@
+.faq {
+  position: relative;
+  top: 150px;
+  min-height: 50vh;
+}
+
+.faq .title p {
+  margin: 0;
+  font-weight: bold;
+  color: black;
+}
+
+
+.faq mat-accordion {
+  margin-top: 16px; 
+}
+
+
+.faq mat-expansion-panel-header {
+  background-color: #17a2b8; 
+  color: white;
+  font-size: 18px;
+  font-weight: 400; 
+}
+
+.faq mat-expansion-panel-header:hover,
+.faq mat-expansion-panel-header:focus {
+  background-color: #128293; 
+  outline: none; 
+}

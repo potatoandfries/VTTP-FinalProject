@@ -1,0 +1,153 @@
+.list-orders .title p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.list-orders .order {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.list-orders .order .order-title p {
+  margin: 0;
+  display: inline;
+  font-weight: bold;
+  color: black;
+}
+
+.list-orders .order .order-title p span {
+  color: #17a2b8;
+  font-weight: 400;
+}
+
+.list-orders .order .order-title .date {
+  text-align: center;
+}
+
+.list-orders .order .order-title .status {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.list-orders .order hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.list-orders .order .left-panel p,
+.list-orders .order .right-panel .item-list p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.list-orders .order .left-panel p {
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.list-orders .order .left-panel p span,
+.list-orders .order .right-panel .item-list .amount span {
+  color: gray;
+  font-weight: 400;
+}
+
+.list-orders .order .left-panel {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-orders .order .right-panel .item-list {
+  max-height: 25vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.list-orders .order .right-panel .item-list img {
+  height: 75px;
+  width: 75px;
+  margin-left: 15px;
+}
+
+.list-orders .order .right-panel .item-list .color {
+  position: relative;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.list-orders .order .right-panel .item-list .item {
+  cursor: pointer;
+}
+
+.list-orders .order .right-panel .item-list .details .product-name {
+  color: black;
+  font-weight: bold;
+}
+
+.list-orders .order .right-panel .item-list .details .price {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.list-orders .bottom {
+  position: relative;
+  top: 50px;
+}
+
+mat-paginator ::ng-deep.mat-paginator-page-size.mat-select-value {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-page-size.mat-select-arrow {
+  color: gray;
+}
+
+
+mat-paginator ::ng-deep.mat-paginator-page-size.mat-select-content {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-range-labels {
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-range-labels.mat-paginator-range-label {
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-navigation.mat-paginator-navigation-prev {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-navigation.mat-paginator-navigation-next {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-navigation.mat-paginator-navigation-first {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+
+mat-paginator ::ng-deep.mat-paginator-navigation.mat-paginator-navigation-last {
+  background-color: white!important;
+  border: none;
+  color: gray;
+}
+

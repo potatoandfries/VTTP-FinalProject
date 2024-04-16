@@ -1,0 +1,300 @@
+Brand,Model,Category,Gender,Size,Color,Material,Price,image_path
+Nike,Air Jordan 1,Basketball,Men,US 10,Red/Black,Leather,$170.00,shoely_images/0.jpg
+Adidas,Ultra Boost 21,Running,Men,US 9.5,Black,Primeknit,$180.00,shoely_images/1.jpg
+Reebok,Classic Leather,Casual,Men,US 11,White,Leather,$75.00,shoely_images/2.jpg
+Converse,Chuck Taylor,Casual,Women,US 8,Navy,Canvas,$55.00,shoely_images/3.jpg
+Puma,Future Rider,Lifestyle,Women,US 7.5,Pink,Mesh,$80.00,shoely_images/4.jpg
+Vans,Old Skool,Skate,Men,US 8.5,Black/White,Suede/Canvas,$65.00,shoely_images/5.jpg
+New Balance,990v5,Running,Women,US 6.5,Grey,Suede/Mesh,$175.00,shoely_images/6.jpg
+Asics,Gel-Kayano 28,Running,Men,US 10.5,Blue,Mesh,$160.00,shoely_images/7.jpg
+Fila,Disruptor II,Fashion,Women,US 9,White,Leather/Synthetic,$65.00,shoely_images/8.jpg
+Skechers,Go Run Razor 3,Running,Men,US 9,Black,Mesh,$110.00,shoely_images/9.jpg
+Nike,Air Max 270,Running,Women,US 7,Pink,Mesh,$150.00,shoely_images/10.jpg
+Adidas,Stan Smith,Casual,Men,US 9,White/Green,Leather,$80.00,shoely_images/11.jpg
+Reebok,Club C 85,Casual,Women,US 8.5,Pink,Leather,$70.00,shoely_images/12.jpg
+Converse,One Star,Skate,Men,US 10,Black,Suede,$75.00,shoely_images/13.jpg
+Puma,RS-Fast,Lifestyle,Men,US 9.5,Yellow,Leather/Synthetic,$110.00,shoely_images/14.jpg
+Vans,Authentic,Skate,Women,US 6,White,Canvas,$50.00,shoely_images/15.jpg
+New Balance,Fresh Foam 1080v11,Running,Men,US 11.5,Blue,Mesh,$150.00,shoely_images/16.jpg
+Asics,Gel-Nimbus 23,Running,Women,US 8,Purple,Mesh,$150.00,shoely_images/17.jpg
+Fila,Ray Tracer,Fashion,Men,US 10,Black,Synthetic,$70.00,shoely_images/18.jpg
+Skechers,Arch Fit,Walking,Women,US 7.5,Grey,Mesh,$70.00,shoely_images/19.jpg
+Nike,Air Force 1,Casual,Men,US 10,White,Leather,$90.00,shoely_images/20.jpg
+Adidas,NMD_R1,Running,Women,US 8.5,Black/Pink,Primeknit,$140.00,shoely_images/21.jpg
+Reebok,Zig Kinetica II,Running,Men,US 11,White,Mesh,$120.00,shoely_images/22.jpg
+Converse,Jack Purcell,Casual,Women,US 7.5,Navy,Canvas,$65.00,shoely_images/23.jpg
+Puma,Calibrate Runner,Running,Men,US 9.5,Black,Mesh,$80.00,shoely_images/24.jpg
+Vans,Sk8-Hi,Skate,Women,US 8,Black/White,Suede/Canvas,$70.00,shoely_images/25.jpg
+New Balance,327,Lifestyle,Men,US 10,Blue/Orange,Suede/Mesh,$90.00,shoely_images/26.jpg
+Asics,Gel-Quantum 180,Running,Women,US 9,Grey,Mesh/Synthetic,$120.00,shoely_images/27.jpg
+Fila,Mindblower,Fashion,Men,US 8.5,White,Leather/Synthetic,$75.00,shoely_images/28.jpg
+Skechers,D'Lites,Walking,Women,US 7,Black,Synthetic,$65.00,shoely_images/29.jpg
+Nike,Air Max 2090,Running,Men,US 9,Grey,Mesh,$150.00,shoely_images/30.jpg
+Adidas,Adizero Adios 5,Running,Women,US 7.5,Blue,Mesh,$170.00,shoely_images/31.jpg
+Reebok,Nano 9,Cross-training,Men,US 10,Black,Mesh/Synthetic,$130.00,shoely_images/32.jpg
+Converse,Chuck 70,Casual,Women,US 9,Pink,Canvas,$85.00,shoely_images/33.jpg
+Puma,Future Rider Play,Lifestyle,Men,US 9,Black/Red,Synthetic,$90.00,shoely_images/34.jpg
+Vans,Slip-On,Skate,Women,US 7,Checkered,Canvas,$50.00,shoely_images/35.jpg
+New Balance,574,Casual,Men,US 9,Black/Grey,Suede/Textile,$80.00,shoely_images/36.jpg
+Asics,Gel-Kayano 27,Running,Women,US 8.5,Purple,Mesh/Synthetic,$160.00,shoely_images/37.jpg
+Fila,Venom,Fashion,Men,US 9.5,White/Red,Leather/Synthetic,$65.00,shoely_images/38.jpg
+Skechers,Go Walk 5,Walking,Women,US 7.5,Black,Mesh,$60.00,shoely_images/39.jpg
+Nike,Air Force 1,Casual,Men,US 11,White,Leather,$90.00,shoely_images/40.jpg
+Adidas,NMD_R1,Running,Women,US 9,Black,Knit,$140.00,shoely_images/41.jpg
+Reebok,Zig Kinetica II,Running,Men,US 9.5,White,Mesh,$120.00,shoely_images/42.jpg
+Converse,Jack Purcell,Casual,Men,US 10,White,Canvas,$65.00,shoely_images/43.jpg
+Puma,Suede Classic,Casual,Women,US 8.5,Beige,Suede,$65.00,shoely_images/44.jpg
+Vans,Sk8-Hi,Skate,Men,US 8,Black/White,Suede/Canvas,$70.00,shoely_images/45.jpg
+New Balance,327,Casual,Women,US 7.5,Orange,Suede/Mesh,$100.00,shoely_images/46.jpg
+Asics,Gel-Kayano 28,Running,Women,US 7,White,Mesh,$160.00,shoely_images/47.jpg
+Fila,Original Fitness,Casual,Men,US 11,White/Navy,Leather,$70.00,shoely_images/48.jpg
+Skechers,Go Walk 5,Walking,Women,US 8,Black,Mesh,$60.00,shoely_images/49.jpg
+Nike,Free RN 5.0,Running,Men,US 10,Grey,Mesh,$100.00,shoely_images/50.jpg
+Adidas,Adilette Cloudfoam,Slides,Women,US 6,Black,Synthetic,$35.00,shoely_images/51.jpg
+Reebok,Nano 9,Crossfit,Men,US 10.5,Black,Mesh,$130.00,shoely_images/52.jpg
+Converse,Chuck 70,Casual,Women,US 7.5,Pink,Canvas,$85.00,shoely_images/53.jpg
+Puma,Clyde All Pro,Basketball,Men,US 9.5,Black/Red,Leather,$130.00,shoely_images/54.jpg
+Vans,Era,Skate,Women,US 6.5,White,Canvas,$55.00,shoely_images/55.jpg
+New Balance,Fresh Foam More v2,Running,Men,US 12,Black/Grey,Mesh,$165.00,shoely_images/56.jpg
+Asics,GT-2000 10,Running,Women,US 7,Blue,Mesh,$120.00,shoely_images/57.jpg
+Fila,Mindblower,Casual,Men,US 9.5,White/Blue,Leather/Synthetic,$75.00,shoely_images/58.jpg
+Skechers,Dynamight 2.0,Training,Women,US 9,Black,Mesh,$50.00,shoely_images/59.jpg
+Nike,Air Force 1,Basketball,Men,US 11,White,Leather,$90.00,shoely_images/60.jpg
+Adidas,NMD_R1,Lifestyle,Women,US 7,Pink,Primeknit,$130.00,shoely_images/61.jpg
+Reebok,Nano X1,Training,Men,US 9,Black,Knit,$130.00,shoely_images/62.jpg
+Converse,Chuck 70,Casual,Women,US 8.5,Yellow,Canvas,$85.00,shoely_images/63.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 10,Red,Leather,$130.00,shoely_images/64.jpg
+Vans,Sk8-Hi,Skate,Women,US 7,Black,Suede,$70.00,shoely_images/65.jpg
+New Balance,Fresh Foam 1080v11,Running,Women,US 8,Green,Mesh,$150.00,shoely_images/66.jpg
+Asics,Gel-Quantum 360,Running,Men,US 11,Blue,Mesh,$170.00,shoely_images/67.jpg
+Fila,D-Formation,Casual,Women,US 8.5,White,Leather,$65.00,shoely_images/68.jpg
+Skechers,Max Cushioning,Running,Men,US 8.5,Black,Mesh,$90.00,shoely_images/69.jpg
+Nike,Air Max 90,Lifestyle,Women,US 6,Grey,Leather,$120.00,shoely_images/70.jpg
+Adidas,Yeezy Boost 350,Lifestyle,Men,US 10,Black,Primeknit,$220.00,shoely_images/71.jpg
+Reebok,Classic Nylon,Casual,Women,US 7.5,Pink,Nylon,$65.00,shoely_images/72.jpg
+Converse,Jack Purcell,Casual,Men,US 9,White,Canvas,$65.00,shoely_images/73.jpg
+Puma,Calibrate Runner,Running,Women,US 9,Grey,Mesh,$120.00,shoely_images/74.jpg
+Vans,Era,Skate,Men,US 9.5,Red,Canvas,$50.00,shoely_images/75.jpg
+New Balance,FuelCell Echo,Running,Women,US 7,Pink,Mesh,$100.00,shoely_images/76.jpg
+Asics,GT-2000 9,Running,Men,US 10.5,Black,Mesh,$120.00,shoely_images/77.jpg
+Fila,Original Fitness,Casual,Women,US 7,White,Leather,$60.00,shoely_images/78.jpg
+Skechers,Elite Flex,Walking,Men,US 10,Navy,Mesh,$65.00,shoely_images/79.jpg
+Nike,Blazer Low,Lifestyle,Women,US 7.5,White,Leather,$85.00,shoely_images/80.jpg
+Nike,Air Force 1,Basketball,Men,US 10,White,Leather,$90.00,shoely_images/81.jpg
+Adidas,NMD_R1,Lifestyle,Men,US 8.5,Black,Primeknit,$140.00,shoely_images/82.jpg
+Reebok,Nano X1,Training,Women,US 7.5,Grey,Flexweave,$130.00,shoely_images/83.jpg
+Converse,Jack Purcell,Casual,Men,US 9,White,Canvas,$65.00,shoely_images/84.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 11,Red/White,Leather,$120.00,shoely_images/85.jpg
+Vans,SK8-Hi,Skate,Women,US 6,Black,Suede/Canvas,$70.00,shoely_images/86.jpg
+New Balance,574,Casual,Men,US 10,Navy,Suede/Mesh,$80.00,shoely_images/87.jpg
+Asics,Gel-Lyte III NS,Casual,Women,US 8,Pink,Mesh,$100.00,shoely_images/88.jpg
+Fila,Mindblower,Fashion,Men,US 9.5,White,Leather/Synthetic,$75.00,shoely_images/89.jpg
+Skechers,Max Cushioning,Running,Women,US 7,Black,Mesh,$75.00,shoely_images/90.jpg
+Nike,React Infinity Run Flyknit 2,Running,Men,US 9.5,Blue,Flyknit,$160.00,shoely_images/91.jpg
+Adidas,Harden Stepback,Basketball,Men,US 12,Grey,Synthetic,$80.00,shoely_images/92.jpg
+Reebok,Classic Nylon,Casual,Women,US 7.5,Black,Nylon,$65.00,shoely_images/93.jpg
+Converse,Chuck 70,Casual,Men,US 8,Yellow,Canvas,$85.00,shoely_images/94.jpg
+Puma,Calibrate Runner,Running,Men,US 10.5,Black/Yellow,Mesh,$80.00,shoely_images/95.jpg
+Vans,Era,Skate,Women,US 7,Green,Canvas,$55.00,shoely_images/96.jpg
+New Balance,FuelCell Propel V3,Running,Women,US 6.5,Purple,Mesh,$100.00,shoely_images/97.jpg
+Asics,Gel-Kayano 28 Lite-Show,Running,Men,US 11,Black,Mesh,$170.00,shoely_images/98.jpg
+Fila,Trailblazer,Fashion,Women,US 8,White/Pink,Leather,$65.00,shoely_images/99.jpg
+Skechers,Summits - Quick Getaway,Walking,Men,US 9,Grey,Mesh,$60.00,shoely_images/100.jpg
+Nike,Air Zoom Tempo NEXT% FlyEase,Running,Women,US 8.5,White,Mesh,$200.00,shoely_images/101.jpg
+Nike,React Infinity Run 2,Running,Women,US 7.5,Grey,Mesh,$160.00,shoely_images/102.jpg
+Adidas,Superstar,Casual,Men,US 8.5,Black/White,Leather,$80.00,shoely_images/103.jpg
+Reebok,Zig Kinetica Horizon,Running,Women,US 6.5,Blue,Mesh,$120.00,shoely_images/104.jpg
+Converse,Chuck 70,Casual,Men,US 9,White,Canvas,$85.00,shoely_images/105.jpg
+Puma,Cali Sport,Lifestyle,Women,US 9.5,White,Leather,$90.00,shoely_images/106.jpg
+Vans,Sk8-Hi,Skate,Men,US 10,Black/White,Suede/Canvas,$70.00,shoely_images/107.jpg
+New Balance,990v5,Running,Men,US 9.5,Grey,Suede/Mesh,$175.00,shoely_images/108.jpg
+Asics,Gel-Venture 8,Trail,Women,US 8.5,Blue,Mesh,$70.00,shoely_images/109.jpg
+Fila,Mindblower,Fashion,Men,US 11,White,Synthetic,$75.00,shoely_images/110.jpg
+Skechers,Go Run Mojo,Running,Women,US 7,Black,Mesh,$60.00,shoely_images/111.jpg
+Nike,Air Zoom Pegasus 38,Running,Men,US 11,Black,Mesh,$120.00,shoely_images/112.jpg
+Adidas,Ultraboost 5.0 DNA,Running,Women,US 8.5,Grey,Primeknit,$180.00,shoely_images/113.jpg
+Reebok,Classic Leather Legacy,Casual,Men,US 9.5,White,Leather,$80.00,shoely_images/114.jpg
+Converse,Jack Purcell,Casual,Women,US 6,Navy,Canvas,$65.00,shoely_images/115.jpg
+Puma,RS-Fast Tech,Lifestyle,Men,US 9.5,Black/Red,Synthetic,$110.00,shoely_images/116.jpg
+Vans,Era,Skate,Women,US 7.5,Black/White,Canvas,$50.00,shoely_images/117.jpg
+New Balance,Fresh Foam Roav,Running,Men,US 10,Red,Mesh,$80.00,shoely_images/118.jpg
+Asics,GT-2000 10,Running,Women,US 9,Black,Mesh,$120.00,shoely_images/119.jpg
+Fila,Original Fitness,Fashion,Men,US 10,White,Leather,$60.00,shoely_images/120.jpg
+Skechers,Max Cushioning Elite,Walking,Women,US 8,Navy,Mesh,$80.00,shoely_images/121.jpg
+Nike,Air Force 1 '07,Basketball,Men,US 11,White,Leather,$90.00,shoely_images/122.jpg
+Adidas,NMD_R1,Running,Women,US 8,Pink,Primeknit,$140.00,shoely_images/123.jpg
+Reebok,Nano 9,Training,Men,US 9.5,Black/White,Mesh,$130.00,shoely_images/124.jpg
+Converse,Jack Purcell,Casual,Women,US 7.5,White,Canvas,$65.00,shoely_images/125.jpg
+Puma,Calibrate Runner,Running,Men,US 10,Black/Grey,Mesh/Synthetic,$90.00,shoely_images/126.jpg
+Vans,Sk8-Hi,Skate,Women,US 9,Black/White,Canvas,$65.00,shoely_images/127.jpg
+New Balance,FuelCell Rebel v2,Running,Men,US 9.5,Blue/White,Mesh,$130.00,shoely_images/128.jpg
+Asics,Gel-Kinsei OG,Running,Women,US 7.5,White/Grey,Mesh/Leather,$180.00,shoely_images/129.jpg
+Fila,Spaghetti,Fashion,Men,US 8,White/Navy,Leather/Synthetic,$65.00,shoely_images/130.jpg
+Skechers,Go Walk 5,Walking,Women,US 6.5,Black,Mesh,$60.00,shoely_images/131.jpg
+Nike,ZoomX Invincible Run,Running,Men,US 11,Black,Mesh/Synthetic,$180.00,shoely_images/132.jpg
+Adidas,Ultraboost DNA,Running,Women,US 8,Grey,Primeknit,$180.00,shoely_images/133.jpg
+Reebok,Classic Nylon,Casual,Men,US 10.5,Black,Nylon,$60.00,shoely_images/134.jpg
+Converse,Run Star Hike,Casual,Women,US 8,Cream,Canvas,$110.00,shoely_images/135.jpg
+Puma,Suede Classic+,Casual,Men,US 8,Red/White,Suede,$65.00,shoely_images/136.jpg
+Vans,Era,Skate,Women,US 7.5,Green,Canvas,$50.00,shoely_images/137.jpg
+New Balance,Fresh Foam More v3,Running,Men,US 11,Black/Grey,Mesh/Synthetic,$165.00,shoely_images/138.jpg
+Asics,Gel-Quantum 90 3,Running,Women,US 9,Pink,Mesh/Synthetic,$90.00,shoely_images/139.jpg
+Fila,Original Fitness,Casual,Men,US 9.5,White/Navy/Red,Leather,$60.00,shoely_images/140.jpg
+Skechers,Go Run Mojo Pep,Running,Women,US 8.5,Black/White,Mesh,$55,shoely_images/141.jpg
+Nike,Air Force 1,Casual,Men,US 11,White,Leather,$90.00,shoely_images/142.jpg
+Adidas,NMD_R1,Running,Women,US 8.5,Pink,Primeknit,$130.00,shoely_images/143.jpg
+Reebok,Zig Kinetica II,Running,Men,US 9,Blue,Mesh,$120.00,shoely_images/144.jpg
+Converse,Chuck 70,Casual,Women,US 7,Black,Canvas,$85.00,shoely_images/145.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 10,White,Leather,$130.00,shoely_images/146.jpg
+Vans,Sk8-Hi,Skate,Women,US 9,Black/White,Suede/Canvas,$65.00,shoely_images/147.jpg
+New Balance,574 Classic,Casual,Men,US 10.5,Grey,Suede/Mesh,$80.00,shoely_images/148.jpg
+Asics,Gel-Quantum 90 3,Running,Women,US 7.5,Black,Mesh,$70.00,shoely_images/149.jpg
+Fila,Mindblower,Fashion,Men,US 11,Grey,Leather/Synthetic,$75.00,shoely_images/150.jpg
+Skechers,Max Cushioning Premier,Running,Women,US 7.5,Pink,Mesh,$90.00,shoely_images/151.jpg
+Nike,Blazer Mid '77,Casual,Men,US 9.5,White,Leather,$100.00,shoely_images/152.jpg
+Adidas,Superstar,Casual,Women,US 7.5,Black/White,Leather,$85.00,shoely_images/153.jpg
+Reebok,DMX Thrill,Running,Men,US 10,Black,Mesh,$70.00,shoely_images/154.jpg
+Converse,Jack Purcell,Casual,Women,US 8.5,White,Canvas,$65.00,shoely_images/155.jpg
+Puma,Calibrate Runner,Running,Men,US 9.5,Black/Yellow,Mesh,$140.00,shoely_images/156.jpg
+Vans,Slip-On,Skate,Women,US 6.5,Checkered,Canvas,$50.00,shoely_images/157.jpg
+New Balance,Fresh Foam Beacon V3,Running,Men,US 11,Blue,Mesh,$120.00,shoely_images/158.jpg
+Asics,Gel-Venture 8,Trail,Women,US 9.5,Grey,Mesh,$70.00,shoely_images/159.jpg
+Fila,F-13,Fashion,Men,US 10,White,Leather,$70.00,shoely_images/160.jpg
+Skechers,Equalizer 4.0,Training,Women,US 8.5,Black,Mesh,$65.00,shoely_images/161.jpg
+Nike,KD13,Basketball,Men,US 11,Blue,Mesh,$150.00,shoely_images/162.jpg
+Nike,React Infinity Run Flyknit 2,Running,Women,US 9.5,Black/White,Flyknit,$160.00,shoely_images/163.jpg
+Adidas,NMD_R1,Lifestyle,Men,US 11.5,Grey,Primeknit,$140.00,shoely_images/164.jpg
+Reebok,Aztrek 96,Casual,Women,US 8.5,Yellow/Black,Leather/Synthetic,$90.00,shoely_images/165.jpg
+Converse,Jack Purcell,Casual,Men,US 9,Navy/White,Canvas,$70.00,shoely_images/166.jpg
+Puma,Calibrate Runner,Running,Men,US 10,Black,Mesh,$100.00,shoely_images/167.jpg
+Vans,Sk8-Hi,Skate,Women,US 7.5,Black/White,Suede/Canvas,$65.00,shoely_images/168.jpg
+New Balance,327,Casual,Men,US 10,Green,Suede/Leather,$90.00,shoely_images/169.jpg
+Asics,GT-2000 10,Running,Women,US 8,Blue,Mesh,$120.00,shoely_images/170.jpg
+Fila,Trailblazer,Fashion,Men,US 9,White/Grey,Leather,$85.00,shoely_images/171.jpg
+Skechers,Max Cushioning Premier,Running,Women,US 7,Grey/Pink,Mesh,$105.00,shoely_images/172.jpg
+Nike,Blazer Mid '77,Casual,Men,US 8.5,Green,Leather,$100.00,shoely_images/173.jpg
+Adidas,Ultraboost 6.0,Running,Women,US 7.5,Black/White,Primeknit,$180.00,shoely_images/174.jpg
+Reebok,Classic Nylon,Casual,Men,US 11.5,Blue/White,Nylon,$60.00,shoely_images/175.jpg
+Converse,Pro Leather,Casual,Women,US 9.5,White/Green,Leather,$75.00,shoely_images/176.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 9.5,Black,Leather/Synthetic,$130.00,shoely_images/177.jpg
+Vans,Era 95 DX,Skate,Women,US 6.5,Black/White,Canvas,$65.00,shoely_images/178.jpg
+New Balance,Fresh Foam More v3,Running,Men,US 10,Black/Grey,Mesh,$165.00,shoely_images/179.jpg
+Asics,Gel-Quantum 360 6,Running,Women,US 9,Grey/Green,Mesh,$180.00,shoely_images/180.jpg
+Fila,Spaghetti,Basketball,Men,US 10.5,White,Leather,$75.00,shoely_images/181.jpg
+Skechers,Uno Bold Move,Casual,Women,US 8.5,Black/White,Synthetic,$70.00,shoely_images/182.jpg
+Nike,Air Force 1,Basketball,Men,US 10,White,Leather,$100.00,shoely_images/183.jpg
+Adidas,NMD_R1,Lifestyle,Women,US 8,Grey,Primeknit,$140.00,shoely_images/184.jpg
+Reebok,Nano X1,Training,Men,US 9.5,Black,Knit,$130.00,shoely_images/185.jpg
+Converse,Jack Purcell,Casual,Women,US 6.5,Navy,Canvas,$65.00,shoely_images/186.jpg
+Puma,Calibrate Runner,Running,Men,US 11,Black,Mesh,$80.00,shoely_images/187.jpg
+Vans,Sk8-Hi,Skate,Women,US 7.5,Black/White,Canvas/Suede,$70.00,shoely_images/188.jpg
+New Balance,327,Lifestyle,Men,US 10,Beige,Suede/Mesh,$100.00,shoely_images/189.jpg
+Asics,Gel-Excite 8,Running,Women,US 9,Pink,Mesh,$75.00,shoely_images/190.jpg
+Fila,Memory Fresh 2,Walking,Men,US 10,White,Synthetic,$60.00,shoely_images/191.jpg
+Skechers,Energy Burst,Running,Women,US 8,Black,Mesh,$70.00,shoely_images/192.jpg
+Nike,Flyknit Trainer,Running,Men,US 10,Black/White,Flyknit,$150.00,shoely_images/193.jpg
+Adidas,Ultraboost 4.0,Running,Women,US 7,Blue,Primeknit,$180.00,shoely_images/194.jpg
+Reebok,Floatride Energy,Running,Men,US 10.5,Grey,Mesh,$100.00,shoely_images/195.jpg
+Converse,Chuck 70 High,Casual,Women,US 9,Pink,Canvas,$85.00,shoely_images/196.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 9,White,Leather,$130.00,shoely_images/197.jpg
+Vans,Era,Skate,Women,US 8.5,Black,Canvas,$50.00,shoely_images/198.jpg
+New Balance,Fresh Foam Beacon v3,Running,Men,US 12,Blue,Mesh,$120.00,shoely_images/199.jpg
+Asics,Gel-Kayano 27,Running,Women,US 8.5,Black,Mesh,$160.00,shoely_images/200.jpg
+Fila,Trailblazer,Fashion,Men,US 11,Black,Leather,$75.00,shoely_images/201.jpg
+Skechers,Equalizer 4.0,Walking,Women,US 7,Grey,Mesh,$60.00,shoely_images/202.jpg
+Nike,Blazer Mid '77,Casual,Men,US 9.5,White/Red/Navy,Leather,$100.00,shoely_images/203.jpg
+Adidas,Superstar,Casual,Women,US 7.5,White/Black,Leather,$80.00,shoely_images/204.jpg
+Reebok,Zig Kinetica,Running,Men,US 11.5,White/Black,Mesh,$120.00,shoely_images/205.jpg
+Converse,Jack Purcell,Casual,Men,US 8.5,White/Navy,Canvas,$70.00,shoely_images/206.jpg
+Puma,Suede Classic,Casual,Women,US 8.5,Pink,Suede,$65.00,shoely_images/207.jpg
+Vans,Sk8-Hi,Skate,Men,US 10,Black/White,Canvas,$70.00,shoely_images/208.jpg
+New Balance,Fresh Foam More,Running,Women,US 9,Grey/Purple,Mesh,$165.00,shoely_images/209.jpg
+Asics,Gel-Kayano 27,Running,Men,US 10.5,Black/Green,Mesh,$160.00,shoely_images/210.jpg
+Fila,Trailblazer,Fashion,Women,US 7,Cream,Synthetic,$75.00,shoely_images/211.jpg
+Skechers,D'Lites Fresh Start,Walking,Men,US 9.5,White/Black,Leather,$70.00,shoely_images/212.jpg
+Nike,Air Force 1,Casual,Women,US 8.5,White/Red,Leather,$90.00,shoely_images/213.jpg
+Adidas,NMD_R1,Casual,Men,US 9,Black/White,Primeknit,$130.00,shoely_images/214.jpg
+Reebok,Club C 85 MU,Casual,Men,US 11,White/Black,Leather,$75.00,shoely_images/215.jpg
+Converse,Chuck 70,Casual,Women,US 8.5,Cream,Canvas,$85.00,shoely_images/216.jpg
+Puma,Calibrate Runner,Running,Men,US 8.5,Black/Blue,Mesh,$120.00,shoely_images/217.jpg
+Vans,Era,Skate,Women,US 7,Pink/White,Canvas,$50.00,shoely_images/218.jpg
+New Balance,FuelCell Propel v2,Running,Men,US 9,Blue/Green,Mesh,$100.00,shoely_images/219.jpg
+Asics,Gel-Cumulus 23,Running,Women,US 8.5,Pink/White,Mesh,$120.00,shoely_images/220.jpg
+Fila,Mindblower,Fashion,Men,US 10,White/Black,Synthetic,$75.00,shoely_images/221.jpg
+Nike,Air Force 1,Casual,Men,US 11,White,Leather,$90.00,shoely_images/222.jpg
+Adidas,NMD_R1,Lifestyle,Women,US 8,Pink,Primeknit,$140.00,shoely_images/223.jpg
+Reebok,Nano X1,Training,Men,US 9.5,Grey,Knit,$130.00,shoely_images/224.jpg
+Converse,All Star Hi,Casual,Women,US 7,Black,Canvas,$60.00,shoely_images/225.jpg
+Puma,Calibrate Runner,Running,Men,US 10.5,Blue,Mesh,$90.00,shoely_images/226.jpg
+Vans,Sk8-Hi,Skate,Women,US 6,Red/White,Canvas,$70.00,shoely_images/227.jpg
+New Balance,327,Lifestyle,Men,US 8.5,Green,Suede/Mesh,$100.00,shoely_images/228.jpg
+Asics,Gel-Quantum 180,Running,Women,US 7.5,Grey,Mesh,$120.00,shoely_images/229.jpg
+Fila,Mindblower,Fashion,Men,US 9,White,Leather,$70.00,shoely_images/230.jpg
+Skechers,Max Cushioning,Walking,Women,US 9,Black,Mesh,$75.00,shoely_images/231.jpg
+Nike,React Infinity Run Flyknit,Running,Men,US 12,Black,Flyknit,$160.00,shoely_images/232.jpg
+Adidas,Adilette Comfort,Slides,Women,US 6,Black,Synthetic,$35.00,shoely_images/233.jpg
+Reebok,Classic Nylon,Casual,Men,US 10,Grey,Nylon,$65.00,shoely_images/234.jpg
+Converse,Chuck 70,Casual,Women,US 8,Cream,Canvas,$85.00,shoely_images/235.jpg
+Puma,RS-X3 Puzzle,Lifestyle,Men,US 8.5,Black/Yellow,Synthetic,$110.00,shoely_images/236.jpg
+Vans,Era,Skate,Women,US 7,Pink,Canvas,$55.00,shoely_images/237.jpg
+New Balance,990v4,Running,Men,US 9.5,Grey,Suede/Mesh,$175.00,shoely_images/238.jpg
+Asics,GT-2000 10,Running,Women,US 9,Blue,Mesh,$120.00,shoely_images/239.jpg
+Fila,D-Formation,Fashion,Men,US 11,White,Leather,$65.00,shoely_images/240.jpg
+Skechers,Equalizer 4.0,Training,Women,US 8.5,Black,Knit,$70.00,shoely_images/241.jpg
+Nike,Air Zoom Pegasus 38,Running,Men,US 10.5,Blue,Mesh,$120.00,shoely_images/242.jpg
+Nike,Air Force 1 '07,Basketball,Men,US 11,White,Leather,$90.00,shoely_images/243.jpg
+Adidas,Yeezy Boost 350 V2,Fashion,Men,US 9,Zebra,Primeknit,$220.00,shoely_images/244.jpg
+Reebok,Nano X1 Adventure,Training,Men,US 10,Khaki,Textile/Leather,$130.00,shoely_images/245.jpg
+Converse,Jack Purcell Low,Casual,Women,US 7.5,Pink,Canvas,$65.00,shoely_images/246.jpg
+Puma,Clyde All-Pro,Basketball,Men,US 10.5,Black/White,Leather/Suede,$130.00,shoely_images/247.jpg
+Vans,Sk8-Hi,Skate,Women,US 9,Checkerboard,Canvas,$70.00,shoely_images/248.jpg
+New Balance,Fresh Foam Hierro v6,Trail,Men,US 9.5,Grey/Yellow,Synthetic/Mesh,$135.00,shoely_images/249.jpg
+Asics,Gel-Quantum 180 5,Running,Women,US 8,Pink,Mesh,$120.00,shoely_images/250.jpg
+Fila,D-Formation,Fashion,Men,US 11,Black,Leather,$65.00,shoely_images/251.jpg
+Skechers,Arch Fit Refine,Walking,Women,US 6.5,Navy,Mesh,$65.00,shoely_images/252.jpg
+Nike,Air Zoom Pegasus 38,Running,Men,US 12,Blue,Mesh,$120.00,shoely_images/253.jpg
+Adidas,NMD_R1,Casual,Women,US 8.5,Pink,Primeknit,$130.00,shoely_images/254.jpg
+Reebok,Floatride Energy 3,Running,Men,US 9,Black,Mesh,$100.00,shoely_images/255.jpg
+Converse,Chuck 70 High,Casual,Men,US 12,Green,Canvas,$85.00,shoely_images/256.jpg
+Puma,Calibrate Runner,Running,Women,US 9,White,Mesh,$90.00,shoely_images/257.jpg
+Vans,Era,Skate,Men,US 8.5,Black,Canvas,$50.00,shoely_images/258.jpg
+New Balance,FuelCell Rebel v2,Running,Women,US 7.5,Orange,Mesh,$130.00,shoely_images/259.jpg
+Asics,Gel-Cumulus 23,Running,Men,US 11,Grey,Mesh,$120.00,shoely_images/260.jpg
+Fila,Mindblower,Fashion,Women,US 7,White,Leather/Synthetic,$65.00,shoely_images/261.jpg
+Skechers,GOrun Mojo 2.0,Running,Men,US 8,Black,Mesh,$60.00,shoely_images/262.jpg
+Nike,Air Force 1,Basketball,Men,US 11,White,Leather,$90.00,shoely_images/263.jpg
+Adidas,NMD_R1,Running,Women,US 8.5,Pink,Knit,$140.00,shoely_images/264.jpg
+Reebok,ZigWild Trail 7,Trail,Men,US 9.5,Black,Mesh/Synthetic,$110.00,shoely_images/265.jpg
+Converse,Jack Purcell,Casual,Women,US 7,Blue,Canvas,$65.00,shoely_images/266.jpg
+Puma,Calibrate Runner,Running,Men,US 10,Grey,Mesh,$90.00,shoely_images/267.jpg
+Vans,SK8-Hi,Skate,Women,US 6.5,Black/White,Canvas/Leather,$70.00,shoely_images/268.jpg
+New Balance,FuelCell Rebel v2,Running,Women,US 7,White/Pink,Mesh,$110.00,shoely_images/269.jpg
+Asics,Gel-Kahana 8,Running,Men,US 8,Grey,Mesh,$85.00,shoely_images/270.jpg
+Fila,Mindblower,Fashion,Women,US 7.5,White/Pink,Leather/Synthetic,$65.00,shoely_images/271.jpg
+Skechers,Max Cushioning,Running,Men,US 11,Black,Mesh,$85.00,shoely_images/272.jpg
+Nike,Air Max 2090,Running,Men,US 12,Black,Mesh/Synthetic,$150.00,shoely_images/273.jpg
+Adidas,Superstar,Casual,Women,US 9.5,White/Black,Leather,$85.00,shoely_images/274.jpg
+Reebok,Nano 9,Training,Men,US 10,Blue,Synthetic,$130.00,shoely_images/275.jpg
+Converse,Pro Leather,Casual,Men,US 9.5,White/Green,Leather,$80.00,shoely_images/276.jpg
+Puma,RS-X³,Lifestyle,Women,US 8.5,Pink,Mesh,$110.00,shoely_images/277.jpg
+Vans,Slip-On,Casual,Men,US 10.5,Black/White,Canvas,$50.00,shoely_images/278.jpg
+New Balance,Fresh Foam More v3,Running,Men,US 12,Black/Grey,Mesh,$165.00,shoely_images/279.jpg
+Asics,GT-1000 9,Running,Women,US 6.5,Blue,Mesh,$90.00,shoely_images/280.jpg
+Fila,T1 Mid,Casual,Men,US 11,White,Leather,$65.00,shoely_images/281.jpg
+Skechers,Go Walk 5,Walking,Women,US 8.5,Black,Mesh,$60.00,shoely_images/282.jpg
+Nike,Blazer Mid '77,Casual,Men,US 8.5,Green,Leather,$100.00,shoely_images/283.jpg
+Nike,Air Force 1,Casual,Men,US 9.5,White,Leather,$90.00,shoely_images/284.jpg
+Adidas,NMD_R1,Lifestyle,Women,US 7,Black/Pink,Knit,$140.00,shoely_images/285.jpg
+Reebok,Nano X1,Crossfit,Men,US 10,Black,Mesh,$130.00,shoely_images/286.jpg
+Converse,Chuck 70,Casual,Women,US 8.5,Ivory,Canvas,$85.00,shoely_images/287.jpg
+Puma,Calibrate,Running,Men,US 8.5,Grey,Mesh,$130.00,shoely_images/288.jpg
+Vans,SK8-Hi,Skate,Men,US 9.5,Black/White,Canvas,$70.00,shoely_images/289.jpg
+New Balance,574,Casual,Women,US 7,Pink,Suede,$80.00,shoely_images/290.jpg
+Asics,Gel-Quantum 180 6,Running,Men,US 11,Black,Mesh,$120.00,shoely_images/291.jpg
+Fila,Mindblower,Fashion,Women,US 8,White,Leather/Synthetic,$65.00,shoely_images/292.jpg
+Skechers,Max Cushioning,Running,Women,US 7.5,Black,Mesh,$90.00,shoely_images/293.jpg
+Nike,Free RN Flyknit,Running,Men,US 10,Blue,Knit,$130.00,shoely_images/294.jpg
+Adidas,Adizero Boston 9,Running,Women,US 6.5,Black,Mesh,$120.00,shoely_images/295.jpg
+Reebok,Zig Kinetica II,Running,Men,US 9,Blue,Mesh,$120.00,shoely_images/296.jpg
+Converse,Run Star Hike,Casual,Women,US 8.5,White,Canvas,$110.00,shoely_images/297.jpg
+Puma,Ralph Sampson,Casual,Men,US 11,White/Green,Leather,$80.00,shoely_images/298.jpg

@@ -1,0 +1,34 @@
+<div class="col-md-12">
+  <h3 class="title">Most Selling</h3>
+</div>
+
+<div class="most-selling-container">
+  <button class="scroll-left" (click)="scrollLeft()">
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+
+  <div *ngIf="!(showcaseState | async)?.loading" class="loader">Loading...</div>
+
+  <div *ngIf="(showcaseState | async)?.loading" class="most-cards" #mostCards>
+    <mat-card class="most-card" *ngFor="let m of (showcaseState | async)?.mostSelling">
+      <a routerLink="/detail/{{ m.url }}/{{ m.productVariant.id }}">
+        <img mat-card-image src="{{ m.productVariant.thumb }}" alt="{{ m.name }}" />
+        <mat-card-content>
+          <p class="product-name">{{ m.name }}</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="product-color" [ngStyle]="{ 'background-color': m.productVariant.color.hex }"></div>
+            </div>
+            <div class="col-md-6">
+              <p>{{ m.productVariant.price }} $</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </a>
+    </mat-card>
+  </div>
+
+  <button class="scroll-right" (click)="scrollRight()">
+    <mat-icon>arrow_forward</mat-icon>
+  </button>
+</div>

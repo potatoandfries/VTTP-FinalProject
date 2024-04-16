@@ -1,0 +1,8 @@
+com\commerce\oauth\server\ServerApplication.class
+com\commerce\oauth\server\config\ServerSecurityConfig.class
+com\commerce\oauth\server\model\UserDetailsServiceImpl.class
+com\commerce\oauth\server\model\User.class
+com\commerce\oauth\server\config\SimpleCORSFilter.class
+com\commerce\oauth\server\config\Encoders.class
+com\commerce\oauth\server\config\Oauth2AuthServerConfig.class
+com\commerce\oauth\server\repo\UserRepository.class

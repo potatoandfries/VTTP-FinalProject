@@ -1,0 +1,248 @@
+.display {
+  width: 70%;
+  min-height: 50vh;
+  position: relative;
+  top: 150px;
+}
+
+.display .cart-info .title {
+  border-bottom: 1px solid #e1e8ee;
+  padding: 10px;
+}
+
+.display .cart-info .title p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  color: black;
+}
+
+.display .cart-info .item {
+  padding: 20px;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.display .cart-info .item .product-image {
+  padding: 0;
+}
+
+.display .cart-info .item .product-image img {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.display .cart-info .item .product-image .color {
+  position: relative;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.display .cart-info .item .description {
+  text-align: center;
+  cursor: pointer;
+}
+
+.display .cart-info .item .description span {
+  position: relative;
+  top: 40%;
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 400;
+  word-break: break-word;
+}
+
+.display .cart-info .item .quantity {
+  font-size: 14px;
+  position: relative;
+  top: 40%;
+}
+
+.display .cart-info .item .quantity .loader {
+  font-size: 6px;
+  top: 40%;
+  left: 25%;
+}
+
+.display .cart-info .item .quantity div {
+  position: relative;
+  top: 40%;
+}
+
+.display .cart-info .item .quantity div span {
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 300;
+}
+
+.display .cart-info .item .quantity div button.minus-btn,
+.display .cart-info .item .quantity div button.plus-btn {
+  width: 25%;
+  height: 30px;
+  background-color: #e1e8ee;
+  border-radius: 10px;
+  border: none;
+}
+
+.display .cart-info .item .quantity div button.minus-btn img {
+  margin-bottom: 3px;
+}
+
+.display .cart-info .item .quantity div button.plus-btn img {
+  margin-top: 2px;
+}
+
+.display .cart-info .item .quantity div button:focus,
+.display .cart-info .item .quantity div input:focus {
+  outline: 0;
+}
+
+.display .cart-info .item .item-price span {
+  white-space: nowrap;
+  position: relative;
+  top: 40%;
+  font-size: 14px;
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.display .cart-info .item .delete .loader {
+  font-size: 6px;
+  top: 40%;
+}
+
+.display .cart-info .item .delete span {
+  padding: 10px;
+  position: relative;
+  top: 40%;
+  cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url("/assets/delete-icn.svg") no-repeat center;
+  margin-right: 5px;
+}
+
+.display .summary {
+  position: relative;
+  margin-top: 30px;
+  padding-top: 30px; 
+  
+}
+
+.display .summary .title {
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 10px;
+}
+
+.display .summary .pricing {
+  padding: 10px;
+}
+
+.display .summary .pricing .label {
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 500;
+}
+
+.display .summary .pricing span {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+
+.display .summary .pricing .discount-add-text,
+.display .summary .pricing .discount-add-text span {
+  cursor: pointer;
+  color: #17a2b8;
+  font-size: 14px;
+}
+
+.display .summary .pricing .discount-add-text span {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+}
+
+.display .summary .pricing .discount-text {
+  color: #17a2b8;
+}
+
+.display .summary .total {
+  padding: 10px;
+  border-top: 1px solid #e1e8ee;
+}
+
+.display .summary .total span {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.display .summary .checkout button {
+  width: 100%;
+  background-color: #17a2b8;
+  color: white;
+  border-radius: 10px;
+}
+
+.display .summary .checkout .discount {
+  padding: 20px;
+}
+
+.display .summary .checkout .discount p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.display .summary .checkout .discount input {
+  border-radius: 10px;
+}
+
+.display .summary .checkout .apply-code {
+  background-color: white;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .container-fluid {
+    width: 95% !important;
+  }
+
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image img {
+    width: 50%;
+  }
+
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+}

@@ -1,0 +1,121 @@
+.summary {
+  position: relative;
+  top: 28px;
+}
+
+.summary .title {
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 10px;
+}
+
+.summary .product {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 25vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.summary .product p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.summary .product img {
+  height: 75px;
+  width: 75px;
+  margin-left: 15px;
+}
+
+.summary .product .color {
+  position: relative;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.summary .product .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summary .product .details .product-name {
+  color: black;
+  font-weight: bold;
+}
+
+.summary .product .details .amount span {
+  color: gray;
+}
+
+.summary .product .details .price {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.summary .pricing {
+  padding: 10px;
+}
+
+.summary .pricing .label {
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 500;
+}
+
+.summary .pricing span {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+
+.summary .pricing .discount-text {
+  color: #17a2b8;
+}
+
+.summary .total {
+  padding: 10px;
+  border-top: 1px solid #e1e8ee;
+}
+
+.summary .total span {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.summary .purchase {
+  padding: 10px;
+}
+
+.summary .purchase .terms-text p {
+  cursor: pointer;
+  text-decoration: underline #17a2b8;
+  color: #17a2b8;
+}
+
+.summary .purchase button {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.summary .purchase input {
+  display: inline-block;
+}
+
+.summary .purchase label {
+  display: inline;
+}
+
+.summary .purchase label p {
+  margin-left: 5px;
+  display: inline;
+}

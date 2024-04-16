@@ -1,0 +1,93 @@
+.related {
+  /* Removed the top positioning to allow natural document flow */
+  min-height: 15vh;
+  margin-top: 50px;  /* Adjust this value as necessary to create space after the product-detail section */
+
+  .title {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+  }
+
+  .related-cards {
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px;
+
+    .related-card {
+      display: inline-block;
+      padding: 15px;
+      .row {
+        padding-left: 10px;
+        margin: 0;
+        margin-top: 5px;
+
+        p {
+          font-weight: bold;
+        }
+      }
+
+      hr {
+        width: 75%;
+        margin-bottom: 5px;
+      }
+
+      p {
+        margin-bottom: 0;
+        font-size: 12px;
+      }
+
+      a {
+        color: #17a2b8;
+        text-decoration: none;
+      }
+
+      img {
+        width: 180px;
+        height: 180px;
+      }
+
+      .product-color {
+        position: relative;
+        top: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+
+      .product-name {
+        color: #292c2f;
+      }
+    }
+
+    .related-card:hover {
+      border-radius: 10px;
+      box-shadow: 0px 3px 5px 6px rgba(57, 41, 41, 0.1);
+    }
+  }
+
+  .scroll-left, .scroll-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    font-size: 34px;
+    background: none;  /* Clear any background settings if not needed */
+  }
+
+  .scroll-right {
+    right: 0;
+  }
+}
+
+/* Ensure p does not overflow inappropriately */
+p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

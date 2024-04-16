@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.commerce.oauth.server.ServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.828 s - in com.commerce.oauth.server.ServerApplicationTests

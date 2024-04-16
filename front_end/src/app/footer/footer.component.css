@@ -1,0 +1,87 @@
+/* footer.component.css */
+.footer-distributed {
+  background-color: #fff; /* Light background */
+  color: #333; /* Dark text for readability */
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  text-align: center; /* Center align the contents */
+  font-size: 0.9rem; /* Smaller font size */
+  line-height: 1.6; /* Adequate line spacing */
+  border-top: 1px solid #e6e6e6; /* Subtle top border */
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+  width: 100%; /* Full width */
+  padding-bottom: 2rem; /* Space below */
+}
+
+.footer-distributed h3 {
+  color: #000; /* Black color text */
+  font-size: 1.8rem; /* Larger font size */
+  margin: 0.5rem 0; /* Margin around the heading */
+}
+
+.footer-distributed .footer-links {
+  list-style: none; /* No bullet points */
+  padding: 0; /* No padding */
+  margin: 1rem 0; /* Margin around the list */
+}
+
+.footer-distributed .footer-links a {
+  color: #666; /* Medium gray color */
+  text-decoration: none; /* No underline */
+}
+
+.footer-distributed .footer-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-distributed .footer-company-name {
+  color: #aaa; /* Light gray color */
+  margin: 2rem 0 1rem; /* Margin around the text */
+}
+
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: none; /* Hide for simplicity */
+}
+
+.footer-distributed .footer-icons a {
+  background-color: transparent; /* No background color */
+  border-radius: 50%; /* Circular shape */
+  display: inline-block;
+  margin-right: 0.5rem; /* Space between icons */
+}
+
+.footer-distributed .footer-icons a i {
+  color: #666; /* Icons with the same gray color as text */
+  vertical-align: middle; /* Align icons */
+  font-size: 1.5rem; /* Larger icons */
+}
+
+@media (max-width: 880px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i,
+  .footer-distributed .footer-right i {
+    margin: 0; /* Remove margins for icons */
+  }
+}
+.footer-distributed {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
